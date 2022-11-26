@@ -10,3 +10,10 @@
 //https://l1pp6.csb.app/
 
 //HINT: You will need to study the classes in teh styles.css file to apply styling.
+
+import React from "react";
+import ReactDom from "react-dom/client";
+
+const root = ReactDom.createRoot(document.querySelector("#root"));
+
+root.render(<h1>Hello world</h1>);
