@@ -13,7 +13,7 @@
 
 import React from "react";
 import ReactDom from "react-dom/client";
-
+import App from "./App";
 const root = ReactDom.createRoot(document.querySelector("#root"));
 
-root.render(<h1>Hello world</h1>);
+root.render(<App/>);
